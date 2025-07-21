@@ -5,7 +5,7 @@ const Navbar = ({ scrollToSection }) => {
   const [visible, setVisible] = useState(true);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const navbarRef = useRef(null);
+  const NavbarRef = useRef(null);
 
   // Toggle navbar saat scroll
   useEffect(() => {
@@ -27,7 +27,7 @@ const Navbar = ({ scrollToSection }) => {
 
   return (
     <header
-      ref={navbarRef}
+      ref={NavbarRef}
       className={`bg-sky-600 text-white p-4 shadow-md sticky top-0 z-50 transition-transform duration-300 ${
         visible ? 'translate-y-0' : '-translate-y-full'
       }`}

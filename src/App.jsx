@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import Navbar from "../src/Components/Navbar"
+import Footer from "../src/Components/Footer"
 import Heroimage from "./assets/Heroimage.jpg";
-import DiscussionSection from "./Components/Diskusi";
+import DiscussionSection from "../src/Components/Diskusi"
 
 function App() {
   const scrollToSection = (id) => {
