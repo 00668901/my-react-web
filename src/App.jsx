@@ -13,7 +13,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-sky-50 transition-colors duration-300">
+    <div className="min-h-screen flex flex-col transition-colors duration-300">
       <Navbar scrollToSection={scrollToSection} />
 
       {/* Main Content */}
