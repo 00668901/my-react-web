@@ -47,7 +47,7 @@ function App() {
             <h2 className="text-3xl font-bold text-center mb-8 text-sky-600">
               Kenapa Harus Sini Ngoding?
             </h2>
-            <div className="max-w-3xl mx-auto text-gray-700 dark:text-gray-300 text-lg leading-relaxed">
+            <div className="max-w-3xl mx-auto text-black dark:text-gray-300 text-lg leading-relaxed">
               <p className="mb-6">
                 Sini Ngoding hadir sebagai platform pembelajaran bagi siapa saja
                 yang ingin mempelajari dunia pemrograman secara mudah dan
