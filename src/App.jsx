@@ -27,7 +27,7 @@ function App() {
                 Selamat Datang di{" "}
                 <span className="text-sky-500">Sini Ngoding</span>
               </h1>
-              <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300">
+              <p className="text-lg md:text-xl text-gray-700">
                 Tempat belajar coding, berbagi ilmu, dan eksplorasi teknologi
                 terkini.
               </p>
@@ -47,7 +47,7 @@ function App() {
             <h2 className="text-3xl font-bold text-center mb-8 text-sky-600">
               Kenapa Harus Sini Ngoding?
             </h2>
-            <div className="max-w-3xl mx-auto text-black dark:text-gray-300 text-lg leading-relaxed">
+            <div className="max-w-3xl mx-auto text-black text-lg leading-relaxed">
               <p className="mb-6">
                 Sini Ngoding hadir sebagai platform pembelajaran bagi siapa saja
                 yang ingin mempelajari dunia pemrograman secara mudah dan
@@ -85,7 +85,7 @@ function App() {
             </h2>
             <div className="flex justify-center">
               <div className="md:w-2/3 w-full">
-                <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+                <p className="text-lg text-gray-700 leading-relaxed">
                   Python adalah bahasa pemrograman tingkat tinggi yang dirancang
                   untuk mudah dibaca dan digunakan. Python sangat populer di
                   kalangan pengembang karena sintaksnya yang sederhana dan
@@ -111,12 +111,12 @@ function App() {
                   <h3 className="text-xl font-semibold mb-4 text-sky-700">
                     Python untuk Masa Depan
                   </h3>
-                  <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
+                  <p className="text-gray-700 leading-relaxed">
                     Python bukan hanya bahasa pemrograman populer saat ini, tapi
                     juga menjadi kunci dalam perkembangan teknologi masa depan.
                     Berikut alasan kenapa Python sangat penting:
                   </p>
-                  <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 mt-4 space-y-2">
+                  <ul className="list-disc list-inside text-gray-700 mt-4 space-y-2">
                     <li>
                       <strong>
                         Artificial Intelligence & Machine Learning
@@ -183,11 +183,11 @@ function App() {
                   <h3 className="text-xl font-semibold mb-4 text-sky-700">
                     Keunggulan Python Dibanding Bahasa Lain
                   </h3>
-                  <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
+                  <p className="text-gray-700 leading-relaxed">
                     Python memiliki banyak kelebihan yang membuatnya unggul
                     dibanding bahasa pemrograman lain:
                   </p>
-                  <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 mt-4 space-y-2">
+                  <ul className="list-disc list-inside text-gray-700 mt-4 space-y-2">
                     <li>
                       <strong>Sintaks Sederhana & Mudah Dibaca</strong>: Mirip
                       bahasa manusia, sehingga lebih cepat dipelajari dan
@@ -222,7 +222,7 @@ function App() {
 
                 {/* Kesimpulan Singkat */}
                 <div className="bg-white border-l-4 border-sky-600 p-5 shadow-md">
-                  <p className="text-gray-700 dark:text-gray-300 italic">
+                  <p className="text-gray-700 italic">
                     "Python tidak hanya membantu kamu membuat program hari ini,
                     tapi juga membuka pintu karier di bidang teknologi masa
                     depan."
@@ -246,7 +246,7 @@ function App() {
                   <h3 className="text-xl font-semibold mb-3 text-sky-700">
                     Class dan Pemrograman Berorientasi Objek
                   </h3>
-                  <p className="text-gray-700 dark:text-gray-300 mb-4">
+                  <p className="text-gray-700 mb-4">
                     Python mendukung pemrograman berorientasi objek (OOP).
                     Dengan{" "}
                     <code className="bg-gray-100 px-1 py-0.5 rounded text-sm">
@@ -273,10 +273,10 @@ andi.perkenalan()`}
                   <h3 className="text-xl font-semibold mb-3 text-sky-700">
                     Jenis-Jenis Data
                   </h3>
-                  <p className="text-gray-700 dark:text-gray-300 mb-4">
+                  <p className="text-gray-700 mb-4">
                     Python memiliki berbagai jenis data bawaan:
                   </p>
-                  <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-2">
+                  <ul className="list-disc list-inside text-gray-700 space-y-2">
                     <li>
                       <strong>Integer</strong>: bilangan bulat seperti{" "}
                       <code className="bg-gray-100 px-1 py-0.5 rounded text-sm">
@@ -320,7 +320,7 @@ andi.perkenalan()`}
                   <h3 className="text-xl font-semibold mb-3 text-sky-700">
                     Fungsi, Modul, dan Library
                   </h3>
-                  <p className="text-gray-700 dark:text-gray-300 mb-4">
+                  <p className="text-gray-700 mb-4">
                     Kamu bisa membuat fungsi sendiri dan menggunakan modul
                     bawaan atau eksternal.
                   </p>
@@ -332,7 +332,7 @@ def hitung_luas_lingkaran(r):
 
 print(hitung_luas_lingkaran(5))`}
                   </pre>
-                  <p className="text-gray-700 dark:text-gray-300 mt-4">
+                  <p className="text-gray-700 mt-4">
                     Beberapa library populer:{" "}
                     <code className="bg-gray-100 px-1 py-0.5 rounded text-sm">
                       numpy
@@ -358,7 +358,7 @@ print(hitung_luas_lingkaran(5))`}
                   <h3 className="text-xl font-semibold mb-3 text-sky-700">
                     Sintaks yang Mudah Dibaca
                   </h3>
-                  <p className="text-gray-700 dark:text-gray-300">
+                  <p className="text-gray-700">
                     Salah satu alasan Python populer adalah sintaksnya yang
                     bersih dan mirip bahasa manusia.
                   </p>
@@ -405,7 +405,7 @@ else:
                 }}
               >
                 <div className="text-3xl font-bold text-sky-600">40+ Juta</div>
-                <p className="text-gray-700 dark:text-gray-300">
+                <p className="text-gray-700">
                   Pengguna aktif Python di seluruh dunia, termasuk developer,
                   data scientist, dan AI engineer.
                 </p>
@@ -434,7 +434,7 @@ else:
                 }}
               >
                 <div className="text-3xl font-bold text-sky-600">#1</div>
-                <p className="text-gray-700 dark:text-gray-300">
+                <p className="text-gray-700">
                   Bahasa pemrograman paling populer menurut{" "}
                   <strong>Stack Overflow Developer Survey</strong> dan{" "}
                   <strong>GitHub Octoverse</strong>.
@@ -466,7 +466,7 @@ else:
                 <div className="text-3xl font-bold text-sky-600">
                   Google, Netflix, SpaceX
                 </div>
-                <p className="text-gray-700 dark:text-gray-300">
+                <p className="text-gray-700">
                   Perusahaan teknologi top dunia menggunakan Python untuk produk
                   utama mereka.
                 </p>
@@ -495,7 +495,7 @@ else:
                 }}
               >
                 <div className="text-3xl font-bold text-sky-600">70%</div>
-                <p className="text-gray-700 dark:text-gray-300">
+                <p className="text-gray-700">
                   Ilmuwan data dan AI engineer menggunakan Python sebagai bahasa
                   utama mereka (sumber: Kaggle).
                 </p>
@@ -512,12 +512,12 @@ else:
             </h2>
             <div className="flex justify-center">
               <div className="md:w-2/3 w-full">
-                <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
+                <p className="text-lg text-gray-700 leading-relaxed mb-6">
                   Untuk memulai menggunakan Python, kamu bisa memilih beberapa
                   cara tergantung kebutuhanmu. Berikut adalah langkah-langkah
                   awal untuk memulai coding dengan Python:
                 </p>
-                <ol className="list-decimal list-inside space-y-3 text-gray-700 dark:text-gray-300">
+                <ol className="list-decimal list-inside space-y-3 text-gray-700">
                   <li>
                     <strong>Instal Python</strong>: Unduh dan instal Python dari
                     situs resmi. Jalankan perintah berikut di terminal atau
@@ -552,7 +552,7 @@ else:
                     </code>
                   </pre>
                 </ol>
-                <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mt-6">
+                <p className="text-lg text-gray-700 leading-relaxed mt-6">
                   Dengan mengikuti langkah-langkah di atas, kamu sudah bisa
                   mulai menggunakan Python untuk berbagai tujuan. Selamat
                   mencoba!
@@ -568,7 +568,7 @@ else:
             <h2 className="text-3xl font-bold mb-6 text-sky-600">
               Siap Mulai Belajar Python?
             </h2>
-            <p className="text-lg text-gray-700 dark:text-gray-300 max-w-2xl mx-auto mb-8">
+            <p className="text-lg text-gray-700 max-w-2xl mx-auto mb-8">
               Dengan panduan ini, kamu sudah memiliki dasar yang kuat untuk
               memahami dan menggunakan Python. Jika ada yang ingin kamu
               tanyakan, bagikan ide, atau butuh bantuan, kami siap membantumu!
@@ -599,7 +599,7 @@ else:
                 <h3 className="text-xl font-semibold mb-2 text-sky-700">
                   Python itu untuk apa?
                 </h3>
-                <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
+                <p className="text-gray-700 leading-relaxed">
                   Python bisa digunakan untuk banyak hal seperti pengembangan
                   web, analisis data, machine learning, otomatisasi tugas,
                   pembuatan game sederhana, dan bahkan aplikasi desktop.
@@ -613,7 +613,7 @@ else:
                 <h3 className="text-xl font-semibold mb-2 text-sky-700">
                   Apakah Python susah dipelajari?
                 </h3>
-                <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
+                <p className="text-gray-700 leading-relaxed">
                   Tidak! Python dikenal sebagai bahasa yang sangat ramah untuk
                   pemula karena sintaksnya mirip bahasa manusia. Banyak sekolah
                   dan universitas menggunakan Python sebagai bahasa pertama
@@ -626,7 +626,7 @@ else:
                 <h3 className="text-xl font-semibold mb-2 text-sky-700">
                   Apa bedanya Python dengan JavaScript?
                 </h3>
-                <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
+                <p className="text-gray-700 leading-relaxed">
                   Python biasanya digunakan untuk logika di backend, data, dan
                   AI. JavaScript lebih fokus ke interaksi di browser (frontend).
                   Tapi keduanya bisa saling melengkapi dalam satu proyek.
@@ -638,7 +638,7 @@ else:
                 <h3 className="text-xl font-semibold mb-2 text-sky-700">
                   Bisakah Python buat aplikasi web?
                 </h3>
-                <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
+                <p className="text-gray-700 leading-relaxed">
                   Bisa! Dengan framework seperti Django dan Flask, kamu bisa
                   membuat aplikasi web lengkap — mulai dari login, database,
                   hingga tampilan halaman — hanya dengan Python.
@@ -650,7 +650,7 @@ else:
                 <h3 className="text-xl font-semibold mb-2 text-sky-700">
                   Butuh berapa lama belajar Python?
                 </h3>
-                <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
+                <p className="text-gray-700 leading-relaxed">
                   Untuk memahami dasar-dasar: 1–2 minggu. Untuk bisa bikin
                   proyek sendiri: 1–3 bulan. Yang terpenting adalah latihan
                   konsisten setiap hari, meski hanya 30 menit.
@@ -662,7 +662,7 @@ else:
                 <h3 className="text-xl font-semibold mb-2 text-sky-700">
                   Python bisa dijalankan di HP?
                 </h3>
-                <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
+                <p className="text-gray-700 leading-relaxed">
                   Bisa! Di Android, kamu bisa pakai aplikasi seperti Pydroid 3.
                   Di iPhone, gunakan Carnets atau langsung buka Replit di
                   browser untuk coding Python langsung dari HP.
@@ -674,7 +674,7 @@ else:
                 <h3 className="text-xl font-semibold mb-2 text-sky-700">
                   Kenapa disebut 'vibe coding'?
                 </h3>
-                <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
+                <p className="text-gray-700 leading-relaxed">
                   Karena kamu cukup tulis ide dalam bahasa sehari-hari, lalu
                   biarkan AI bantu wujudkan. Tidak perlu setup, tidak perlu cari
                   dokumentasi — coding jadi cepat, alami, dan menyenangkan!
@@ -686,7 +686,7 @@ else:
                 <h3 className="text-xl font-semibold mb-2 text-sky-700">
                   Apakah Python gratis?
                 </h3>
-                <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
+                <p className="text-gray-700 leading-relaxed">
                   Ya! Python adalah bahasa open-source dan sepenuhnya gratis
                   untuk digunakan, dimodifikasi, dan didistribusikan. Kamu bisa
                   download dari python.org tanpa biaya.
@@ -698,7 +698,7 @@ else:
                 <h3 className="text-xl font-semibold mb-2 text-sky-700">
                   Bisa ngoding Python tanpa instalasi?
                 </h3>
-                <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
+                <p className="text-gray-700 leading-relaxed">
                   Bisa! Kamu bisa langsung coding Python di browser lewat
                   platform seperti Replit, Jupyter.org, atau Skulpt. Cukup buka
                   website-nya, langsung bisa mulai.
@@ -710,7 +710,7 @@ else:
                 <h3 className="text-xl font-semibold mb-2 text-sky-700">
                   Apa yang bisa saya buat dengan Python?
                 </h3>
-                <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
+                <p className="text-gray-700 leading-relaxed">
                   Kamu bisa buat: kalkulator, to-do list, chatbot, scraper web,
                   analisis data Excel, prediksi cuaca, bahkan aplikasi AI
                   sederhana. Imajinasimu batasnya!
