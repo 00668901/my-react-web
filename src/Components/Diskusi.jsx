@@ -141,7 +141,7 @@ const DiscussionSection = () => {
       <div key={comment.id} className="mb-4">
         <div className="bg-white p-4 rounded-lg shadow-md">
           <p className={`font-semibold ${comment.color}`}>{comment.name}</p>
-          <p className="text-gray-700 dark:text-gray-300 mt-1">{comment.text}</p>
+          <p className="text-gray-700 mt-1">{comment.text}</p>
           <p className="text-xs text-gray-500 mt-1">{formatTimeAgo(comment.timestamp)}</p>
           <button
             onClick={() => setReplyingTo(comment.id)}

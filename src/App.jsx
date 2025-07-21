@@ -27,7 +27,7 @@ function App() {
                 Selamat Datang di{" "}
                 <span className="text-sky-500">Sini Ngoding</span>
               </h1>
-              <p className="text-lg md:text-xl text-gray-700">
+              <p className="text-lg md:text-xl text-black">
                 Tempat belajar coding, berbagi ilmu, dan eksplorasi teknologi
                 terkini.
               </p>
@@ -358,7 +358,7 @@ print(hitung_luas_lingkaran(5))`}
                   <h3 className="text-xl font-semibold mb-3 text-sky-700">
                     Sintaks yang Mudah Dibaca
                   </h3>
-                  <p className="text-gray-700">
+                  <p className="text-black">
                     Salah satu alasan Python populer adalah sintaksnya yang
                     bersih dan mirip bahasa manusia.
                   </p>
@@ -405,7 +405,7 @@ else:
                 }}
               >
                 <div className="text-3xl font-bold text-sky-600">40+ Juta</div>
-                <p className="text-gray-700">
+                <p className="text-black">
                   Pengguna aktif Python di seluruh dunia, termasuk developer,
                   data scientist, dan AI engineer.
                 </p>
@@ -434,7 +434,7 @@ else:
                 }}
               >
                 <div className="text-3xl font-bold text-sky-600">#1</div>
-                <p className="text-gray-700">
+                <p className="text-black">
                   Bahasa pemrograman paling populer menurut{" "}
                   <strong>Stack Overflow Developer Survey</strong> dan{" "}
                   <strong>GitHub Octoverse</strong>.
@@ -466,7 +466,7 @@ else:
                 <div className="text-3xl font-bold text-sky-600">
                   Google, Netflix, SpaceX
                 </div>
-                <p className="text-gray-700">
+                <p className="text-black">
                   Perusahaan teknologi top dunia menggunakan Python untuk produk
                   utama mereka.
                 </p>
@@ -495,7 +495,7 @@ else:
                 }}
               >
                 <div className="text-3xl font-bold text-sky-600">70%</div>
-                <p className="text-gray-700">
+                <p className="text-black">
                   Ilmuwan data dan AI engineer menggunakan Python sebagai bahasa
                   utama mereka (sumber: Kaggle).
                 </p>
@@ -517,7 +517,7 @@ else:
                   cara tergantung kebutuhanmu. Berikut adalah langkah-langkah
                   awal untuk memulai coding dengan Python:
                 </p>
-                <ol className="list-decimal list-inside space-y-3 text-gray-700">
+                <ol className="list-decimal list-inside space-y-3 text-black">
                   <li>
                     <strong>Instal Python</strong>: Unduh dan instal Python dari
                     situs resmi. Jalankan perintah berikut di terminal atau
