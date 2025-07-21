@@ -19,7 +19,7 @@ function App() {
       {/* Main Content */}
       <main className="flex-grow">
         {/* Home Section */}
-        <section id="home" className="bg-sky-50 pt-16 pb-24">
+        <section id="home" className="pt-16 pb-24">
           <div className="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
             {/* Teks Konten */}
             <div className="md:w-1/2 text-left">
