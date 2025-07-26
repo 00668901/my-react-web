@@ -13,3 +13,17 @@
     display: none;
     /* Chrome, Safari, Opera */
 }
+
+#about h2 {
+    /* Contoh: Tambahkan atau pastikan warna teks */
+    color: white;
+    /* Hilangkan atau pastikan tidak ada opacity/rgba transparan */
+    /* opacity: 0.5;  <- Hilangkan jika ada */
+    /* color: rgba(255, 255, 255, 0.5); <- Ganti dengan warna solid */
+}
+
+#about p {
+    /* Contoh: Tambahkan atau pastikan warna teks */
+    color: white;
+    /* Hilangkan atau pastikan tidak ada opacity/rgba transparan */
+}
