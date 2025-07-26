@@ -2,6 +2,11 @@
 
 /* Sembunyikan scrollbar tapi tetap bisa scroll */
 
+#bg {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgba(0, 0, 0, 1);
+}
+
 .scrollbar-hide {
     -ms-overflow-style: none;
     /* IE and Edge */
@@ -26,4 +31,11 @@
     /* Contoh: Tambahkan atau pastikan warna teks */
     color: white;
     /* Hilangkan atau pastikan tidak ada opacity/rgba transparan */
+}
+
+@media only screen and (max-width: 768px) {
+    .text-element {
+        color: rgba(0, 0, 0, 1) !important;
+        opacity: 1 !important;
+    }
 }
